@@ -1,0 +1,29 @@
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: whitesmoke;
+ }
+
+ body {
+   background-color: #373737;
+ }
+ #canvas {
+   background-color: whitesmoke;
+   border-radius: 10px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border: 1px solid #d0d0d0;
+ }
+
+ .high-score {
+   position: absolute;
+   top: 1.5rem;
+   width: 80%;
+   left: 10%;
+   text-align: center;
+   font-size: 30px;
+   color: #373737;
+ }
